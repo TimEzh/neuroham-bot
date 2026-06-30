@@ -32,7 +32,7 @@ def generate_reply(user_text: str):
     }
 
     data = {
-        "model": "openai/gpt-oss-120b:free",
+        "model": "openrouter/free",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_text}
