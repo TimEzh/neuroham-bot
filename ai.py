@@ -32,7 +32,7 @@ def generate_reply(user_text: str):
     }
 
     data = {
-        "model": "openrouter/free",
+        "model": "google/gemma-4-26b-a4b-it:free",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_text}
