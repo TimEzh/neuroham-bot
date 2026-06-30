@@ -38,7 +38,7 @@ def generate_reply(user_text: str):
             {"role": "user", "content": user_text}
         ],
         "temperature": 0.8,
-        "max_tokens": 60
+        "max_tokens": 300
     }
 
     try:
